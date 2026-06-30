@@ -600,3 +600,136 @@ COLLECTION
     gap:35px;
 
 }
+/*==============================
+PRODUCT CARD
+==============================*/
+
+.product-card{
+
+    position:relative;
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    backdrop-filter:blur(18px);
+
+    border-radius:28px;
+
+    padding:35px;
+
+    transition:.45s;
+
+    overflow:hidden;
+
+}
+
+.product-card:hover{
+
+    transform:translateY(-12px);
+
+    border-color:#D4AF37;
+
+    box-shadow:0 0 35px rgba(212,175,55,.18);
+
+}
+
+.product-badge{
+
+    display:inline-block;
+
+    background:#D4AF37;
+
+    color:#111;
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    font-size:12px;
+
+    font-weight:600;
+
+    margin-bottom:25px;
+
+}
+
+.phone-preview{
+
+    font-size:90px;
+
+    text-align:center;
+
+    margin:20px 0;
+
+}
+
+.product-card h3{
+
+    font-family:'Cinzel',serif;
+
+    font-size:30px;
+
+    margin-bottom:15px;
+
+}
+
+.product-card p{
+
+    color:#c8c8c8;
+
+    line-height:1.8;
+
+    margin-bottom:30px;
+
+}
+
+.product-buttons{
+
+    display:flex;
+
+    gap:15px;
+
+}
+
+.demo-btn,
+
+.order-btn{
+
+    flex:1;
+
+    text-align:center;
+
+    padding:14px;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    transition:.35s;
+
+}
+
+.demo-btn{
+
+    background:#D4AF37;
+
+    color:#111;
+
+}
+
+.order-btn{
+
+    border:1px solid #D4AF37;
+
+    color:#D4AF37;
+
+}
+
+.order-btn:hover{
+
+    background:#D4AF37;
+
+    color:#111;
+
+}
