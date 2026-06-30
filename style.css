@@ -736,7 +736,7 @@ PRODUCT CARD
     transition:.45s;
 
     overflow:hidden;
-
+cursor:pointer;
 }
 
 .product-card:hover{
