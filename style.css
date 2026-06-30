@@ -199,7 +199,17 @@ display:none;
     margin-bottom:28px;
 
 }
+.premium-tag:hover{
 
+transform:scale(1.05);
+
+box-shadow:0 0 20px rgba(212,175,55,.25);
+
+transition:.35s;
+
+cursor:default;
+
+}
 .hero h1{
 
     font-family:'Cinzel',serif;
