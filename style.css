@@ -121,7 +121,15 @@ font-size:22px;
 letter-spacing:2px;
 
 }
+.logo:hover{
 
+color:#FFD86B;
+
+text-shadow:0 0 18px rgba(212,175,55,.55);
+
+transition:.35s;
+
+}
 .navbar nav{
 
 display:none;
