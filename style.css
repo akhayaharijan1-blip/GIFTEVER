@@ -193,7 +193,13 @@ display:none;
     letter-spacing:1px;
 
 }
+.hero h1 span{
 
+display:block;
+
+color:#D4AF37;
+
+}
 .hero p{
 
     max-width:700px;
