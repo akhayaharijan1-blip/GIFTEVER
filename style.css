@@ -112,3 +112,133 @@ a{
     color:#D4AF37;
 
 }
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:120px 20px 60px;
+
+}
+
+.hero-content{
+
+    max-width:900px;
+
+}
+
+.premium-tag{
+
+    display:inline-block;
+
+    padding:10px 22px;
+
+    border:1px solid rgba(212,175,55,.35);
+
+    border-radius:50px;
+
+    color:#D4AF37;
+
+    background:rgba(212,175,55,.08);
+
+    font-size:14px;
+
+    margin-bottom:28px;
+
+}
+
+.hero h1{
+
+    font-family:'Cinzel',serif;
+
+    font-size:72px;
+
+    line-height:1.15;
+
+    margin-bottom:25px;
+
+    letter-spacing:1px;
+
+}
+
+.hero p{
+
+    max-width:700px;
+
+    margin:auto;
+
+    color:#c8c8c8;
+
+    font-size:19px;
+
+    line-height:1.8;
+
+}
+
+.hero-buttons{
+
+    margin-top:45px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.btn-primary,
+.btn-secondary{
+
+    padding:16px 34px;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    transition:.35s;
+
+}
+
+.btn-primary{
+
+    background:#D4AF37;
+
+    color:#111;
+
+}
+
+.btn-primary:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.btn-secondary{
+
+    border:1px solid #D4AF37;
+
+    color:#D4AF37;
+
+}
+
+.btn-secondary:hover{
+
+    background:#D4AF37;
+
+    color:#111;
+
+}
