@@ -298,3 +298,74 @@ a{
     animation:float 5s ease-in-out infinite;
 
 }
+/*==============================
+Floating Luxury Lights
+===============================*/
+
+.gold-circle{
+
+position:absolute;
+
+width:420px;
+
+height:420px;
+
+background:#D4AF37;
+
+border-radius:50%;
+
+filter:blur(180px);
+
+opacity:.13;
+
+left:-150px;
+
+top:120px;
+
+animation:move1 10s ease-in-out infinite;
+
+}
+
+.gold-circle2{
+
+position:absolute;
+
+width:320px;
+
+height:320px;
+
+background:#D4AF37;
+
+border-radius:50%;
+
+filter:blur(160px);
+
+opacity:.10;
+
+right:-120px;
+
+bottom:120px;
+
+animation:move2 12s ease-in-out infinite;
+
+}
+
+@keyframes move1{
+
+50%{
+
+transform:translateY(80px);
+
+}
+
+}
+
+@keyframes move2{
+
+50%{
+
+transform:translateY(-80px);
+
+}
+
+}
