@@ -271,3 +271,30 @@ a{
     z-index:-1;
 
 }
+@keyframes float{
+
+    0%{
+
+        transform:translateY(0px);
+
+    }
+
+    50%{
+
+        transform:translateY(-12px);
+
+    }
+
+    100%{
+
+        transform:translateY(0px);
+
+    }
+
+}
+
+.hero-content{
+
+    animation:float 5s ease-in-out infinite;
+
+}
