@@ -276,7 +276,17 @@ border-radius:50px;
     transform:translateY(-4px);
 
 }
+.btn-primary{
 
+box-shadow:0 0 25px rgba(212,175,55,.35);
+
+}
+
+.btn-primary:hover{
+
+box-shadow:0 0 45px rgba(212,175,55,.6);
+
+}
 .btn-secondary{
 
     border:1px solid #D4AF37;
