@@ -784,3 +784,98 @@ Luxury Divider
     );
 
 }
+/*==================================
+MOBILE RESPONSIVE
+==================================*/
+
+@media (max-width:768px){
+
+.hero{
+
+padding:90px 20px 60px;
+
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:42px;
+
+line-height:1.1;
+
+}
+
+.hero p{
+
+font-size:16px;
+
+line-height:1.8;
+
+max-width:100%;
+
+}
+
+.hero-buttons{
+
+display:flex;
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+.hero-buttons a{
+
+width:100%;
+
+text-align:center;
+
+}
+
+.collection{
+
+padding:70px 20px;
+
+}
+
+.collection-grid{
+
+display:flex;
+
+flex-direction:column;
+
+gap:25px;
+
+}
+
+.product-card{
+
+width:100%;
+
+border-radius:22px;
+
+padding:24px;
+
+}
+
+.phone-preview{
+
+height:260px;
+
+}
+
+.section-title h2{
+
+font-size:34px;
+
+}
+
+.section-title p{
+
+font-size:15px;
+
+}
+
+}
