@@ -733,3 +733,30 @@ PRODUCT CARD
     color:#111;
 
 }
+/*==============================
+COMING SOON
+==============================*/
+
+.coming-soon{
+
+    opacity:.75;
+
+}
+
+.coming-soon .phone-preview{
+
+    filter:grayscale(100%);
+
+}
+
+.coming-soon .order-btn{
+
+    background:#222;
+
+    color:#888;
+
+    border:1px solid #444;
+
+    cursor:not-allowed;
+
+}
