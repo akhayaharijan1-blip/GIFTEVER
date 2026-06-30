@@ -788,7 +788,13 @@ cursor:pointer;
     margin-bottom:15px;
 
 }
+.product-card:hover h3{
 
+color:#D4AF37;
+
+transition:.35s;
+
+}
 .product-card p{
 
     color:#c8c8c8;
