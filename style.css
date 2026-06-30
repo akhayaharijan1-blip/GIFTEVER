@@ -369,3 +369,110 @@ transform:translateY(-80px);
 }
 
 }
+/*==========================
+Hero Background Effects
+==========================*/
+
+.hero{
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.hero-bg{
+
+    position:absolute;
+
+    inset:0;
+
+    z-index:-1;
+
+}
+
+.gold-circle{
+
+    position:absolute;
+
+    width:450px;
+
+    height:450px;
+
+    background:#D4AF37;
+
+    border-radius:50%;
+
+    filter:blur(180px);
+
+    opacity:.14;
+
+    left:-120px;
+
+    top:100px;
+
+    animation:floatGlow1 10s ease-in-out infinite;
+
+}
+
+.gold-circle2{
+
+    position:absolute;
+
+    width:350px;
+
+    height:350px;
+
+    background:#D4AF37;
+
+    border-radius:50%;
+
+    filter:blur(160px);
+
+    opacity:.10;
+
+    right:-100px;
+
+    bottom:80px;
+
+    animation:floatGlow2 12s ease-in-out infinite;
+
+}
+
+.grid-lines{
+
+    position:absolute;
+
+    inset:0;
+
+    background-image:
+
+    linear-gradient(rgba(255,255,255,.02) 1px, transparent 1px),
+
+    linear-gradient(90deg, rgba(255,255,255,.02) 1px, transparent 1px);
+
+    background-size:60px 60px;
+
+    mask-image:radial-gradient(circle at center, black 45%, transparent 95%);
+
+}
+
+@keyframes floatGlow1{
+
+    50%{
+
+        transform:translateY(80px);
+
+    }
+
+}
+
+@keyframes floatGlow2{
+
+    50%{
+
+        transform:translateY(-80px);
+
+    }
+
+}
