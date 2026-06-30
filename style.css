@@ -39,3 +39,76 @@ a{
     z-index:-10;
 
 }
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar{
+
+    width:100%;
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:22px 8%;
+
+    backdrop-filter:blur(18px);
+
+    background:rgba(10,10,10,.35);
+
+    border-bottom:1px solid rgba(255,255,255,.06);
+
+    z-index:999;
+
+}
+
+.logo{
+
+    font-family:'Cinzel',serif;
+
+    font-size:30px;
+
+    font-weight:700;
+
+    color:#D4AF37;
+
+    letter-spacing:4px;
+
+    cursor:pointer;
+
+}
+
+.navbar nav{
+
+    display:flex;
+
+    gap:35px;
+
+}
+
+.navbar nav a{
+
+    color:#ffffff;
+
+    font-size:15px;
+
+    font-weight:500;
+
+    transition:.35s;
+
+}
+
+.navbar nav a:hover{
+
+    color:#D4AF37;
+
+}
