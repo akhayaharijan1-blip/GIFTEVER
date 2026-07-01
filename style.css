@@ -1204,3 +1204,64 @@ opacity:1;
 transform:translateY(0);
 
     }
+/*==============================
+HERO PHONE
+==============================*/
+
+.hero-phone{
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+margin-top:20px;
+
+}
+
+.hero-phone-frame{
+
+width:220px;
+
+height:440px;
+
+background:#111;
+
+border:2px solid rgba(212,175,55,.18);
+
+border-radius:42px;
+
+padding:12px;
+
+box-shadow:
+
+0 0 40px rgba(212,175,55,.18),
+
+inset 0 0 12px rgba(255,255,255,.03);
+
+}
+
+.hero-phone-screen{
+
+width:100%;
+
+height:100%;
+
+border-radius:30px;
+
+background:linear-gradient(180deg,#1b1b1b,#0b0b0b);
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+color:#D4AF37;
+
+font-size:15px;
+
+letter-spacing:1px;
+
+}
