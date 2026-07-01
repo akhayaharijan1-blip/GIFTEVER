@@ -784,6 +784,11 @@ pointer-events:none;
     box-shadow:0 0 35px rgba(212,175,55,.18);
 
 }
+.product-card:hover::before{
+
+left:150%;
+
+}
 .phone-preview{
 
 transform:rotate(-3deg) scale(1.03);
