@@ -360,7 +360,8 @@ box-shadow:0 0 45px rgba(212,175,55,.6);
     background:#D4AF37;
 
     color:#111;
-
+box-shadow:0 0 35px rgba(212,175,55,.35);
+transform:translateY(-4px);
 }
 /* =========================
    LUXURY GLOW
