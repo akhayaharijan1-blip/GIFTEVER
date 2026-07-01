@@ -181,7 +181,8 @@ display:none;
 .hero-content{
 
     max-width:900px;
-
+position:relative;
+z-index:2;
 }
 
 .premium-tag{
