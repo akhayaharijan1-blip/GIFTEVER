@@ -806,6 +806,27 @@ overflow:hidden;
 position:relative;
 
 }
+.phone-preview::before{
+
+content:"";
+
+position:absolute;
+
+top:10px;
+
+left:50%;
+
+transform:translateX(-50%);
+
+width:70px;
+
+height:6px;
+
+background:#2a2a2a;
+
+border-radius:20px;
+
+}
 .product-card h3{
 
     font-family:'Cinzel',serif;
