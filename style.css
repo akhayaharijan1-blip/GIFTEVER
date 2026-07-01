@@ -1276,6 +1276,17 @@ position:relative;
 
 overflow:hidden;
 }
+.hero-phone-screen span{
+
+position:relative;
+
+z-index:2;
+
+font-weight:600;
+
+letter-spacing:1px;
+
+}
 .hero-phone-screen::before{
 
 content:"";
