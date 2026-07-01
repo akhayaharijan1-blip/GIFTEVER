@@ -1217,7 +1217,7 @@ justify-content:center;
 align-items:center;
 
 margin-top:20px;
-
+animation:heroPhoneFloat 5s ease-in-out infinite;
 }
 
 .hero-phone-frame{
