@@ -35,3 +35,63 @@ threshold:0.15
 });
 
 fadeElements.forEach((el)=>observer.observe(el));
+// ==========================
+// Demo Buttons (Future Ready)
+// ==========================
+
+const classicDemo = document.getElementById("classic-demo");
+const royalDemo = document.getElementById("royal-demo");
+
+if(classicDemo){
+
+classicDemo.addEventListener("click",(e)=>{
+
+e.preventDefault();
+
+// Classic Demo Link Here
+
+});
+
+}
+
+if(royalDemo){
+
+royalDemo.addEventListener("click",(e)=>{
+
+e.preventDefault();
+
+// Royal Demo Link Here
+
+});
+
+}
+// ==========================
+// Order Buttons (Future Ready)
+// ==========================
+
+const classicOrder = document.getElementById("classic-order");
+const royalOrder = document.getElementById("royal-order");
+
+if(classicOrder){
+
+classicOrder.addEventListener("click",(e)=>{
+
+e.preventDefault();
+
+// WhatsApp Link Here
+
+});
+
+}
+
+if(royalOrder){
+
+royalOrder.addEventListener("click",(e)=>{
+
+e.preventDefault();
+
+// WhatsApp Link Here
+
+});
+
+    }
