@@ -1272,7 +1272,9 @@ color:#D4AF37;
 font-size:15px;
 
 letter-spacing:1px;
+position:relative;
 
+overflow:hidden;
 }
 @keyframes heroPhoneFloat{
 
