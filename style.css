@@ -739,7 +739,10 @@ PRODUCT CARD
 
     padding:35px;
 
-    transition:.45s;
+    transition:
+transform .45s,
+border-color .45s,
+box-shadow .45s;
 
     overflow:hidden;
 cursor:pointer;
