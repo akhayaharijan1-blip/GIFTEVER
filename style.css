@@ -752,7 +752,11 @@ cursor:pointer;
     box-shadow:0 0 35px rgba(212,175,55,.18);
 
 }
+.phone-preview{
 
+transform:rotate(-3deg) scale(1.03);
+
+}
 .product-badge{
 
     display:inline-block;
