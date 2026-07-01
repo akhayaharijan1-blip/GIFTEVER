@@ -858,6 +858,15 @@ transition:.35s;
     color:#111;
 
 }
+.demo-btn:hover{
+
+background:#f2c94c;
+
+transform:translateY(-3px);
+
+box-shadow:0 10px 30px rgba(212,175,55,.25);
+
+}
 /*==============================
 COMING SOON
 ==============================*/
