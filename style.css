@@ -1235,7 +1235,7 @@ border-radius:42px;
 padding:12px;
 
 box-shadow:
-
+transition:.4s;
 0 0 40px rgba(212,175,55,.18),
 
 inset 0 0 12px rgba(255,255,255,.03);
