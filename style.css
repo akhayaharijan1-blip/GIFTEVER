@@ -1265,3 +1265,24 @@ font-size:15px;
 letter-spacing:1px;
 
 }
+@keyframes heroPhoneFloat{
+
+0%{
+
+transform:translateY(0px);
+
+}
+
+50%{
+
+transform:translateY(-12px);
+
+}
+
+100%{
+
+transform:translateY(0px);
+
+}
+
+}
