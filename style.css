@@ -183,6 +183,7 @@ flex-direction:column;
     max-width:900px;
 position:relative;
 z-index:2;
+    margin-bottom:50px;
 }
 
 .premium-tag{
