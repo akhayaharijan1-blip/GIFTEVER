@@ -736,7 +736,7 @@ PRODUCT CARD
 
     backdrop-filter:blur(18px);
 
-    border-radius:24px;
+    border-radius:22px;
 
     padding:28px;
 
@@ -800,7 +800,9 @@ left:150%;
 .phone-preview{
 
 transform:rotate(-3deg) scale(1.03);
+font-size:72px;
 
+margin:15px 0 18px;
 }
 .product-badge{
 
@@ -918,7 +920,7 @@ font-weight:300;
 
     text-align:center;
 
-    padding:11px 16px;
+    padding:12px
 font-size:14px;
     letter-spacing:.4px;
     border-radius:50px;
