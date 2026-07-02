@@ -1698,3 +1698,52 @@ font-weight:600;
 color:#111;
 
 }
+/*==============================
+MINI BANNER
+==============================*/
+
+.mini-banner{
+
+width:100%;
+
+height:100%;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+border-radius:18px;
+
+background:
+
+linear-gradient(
+
+135deg,
+
+#1b1b1b,
+
+#111,
+
+#242424
+
+);
+
+border:1px solid rgba(212,175,55,.15);
+box-shadow:inset 0 0 25px rgba(212,175,55,.08);
+}
+
+.mini-banner span{
+
+font-family:'Cinzel',serif;
+
+font-size:15px;
+
+color:#D4AF37;
+
+letter-spacing:1px;
+
+text-align:center;
+
+}
