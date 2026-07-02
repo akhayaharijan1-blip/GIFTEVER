@@ -1598,3 +1598,48 @@ color:#D4AF37;
 font-weight:700;
 
 }
+/*==============================
+PHONE TOP
+==============================*/
+
+.preview-top{
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+gap:10px;
+
+margin-bottom:18px;
+
+}
+
+.preview-camera{
+
+width:10px;
+
+height:10px;
+
+border-radius:50%;
+
+background:#2b2b2b;
+
+border:1px solid rgba(255,255,255,.08);
+
+}
+
+.preview-speaker{
+
+width:60px;
+
+height:6px;
+
+border-radius:30px;
+
+background:#242424;
+
+border:1px solid rgba(255,255,255,.05);
+
+}
