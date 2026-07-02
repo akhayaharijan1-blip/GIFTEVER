@@ -1465,3 +1465,32 @@ border-radius:30px;
 background:#D4AF37;
 
 }
+/*==============================
+PRICE
+==============================*/
+
+.product-price{
+
+font-size:28px;
+
+font-weight:700;
+
+color:#D4AF37;
+
+margin:12px 0 8px;
+
+font-family:'Cinzel',serif;
+
+}
+
+.delivery-time{
+
+font-size:13px;
+
+color:#9f9f9f;
+
+margin-bottom:18px;
+
+letter-spacing:.4px;
+
+}
