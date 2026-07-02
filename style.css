@@ -1029,7 +1029,19 @@ text-align:center;
 font-size:11px;
 
 padding:7px 14px;
+.offer-strip{
 
+padding:14px 15px;
+
+}
+
+.offer-strip p{
+
+font-size:13px;
+
+line-height:1.6;
+
+}
 }
 }
 
