@@ -893,10 +893,10 @@ transition:.35s;
 .product-card p{
 
     color:#c8c8c8;
-
+font-size:15px;
     line-height:1.8;
 
-    margin-bottom:30px;
+    margin-bottom:20px;
 font-weight:300;
 }
 
