@@ -909,7 +909,7 @@ font-weight:300;
     display:flex;
 
     gap:15px;
-
+align-items:center;
 }
 
 .demo-btn,
@@ -1583,27 +1583,30 @@ PRICE
 
 .product-price{
 
-font-size:28px;
+font-family:'Cinzel',serif;
+
+font-size:32px;
 
 font-weight:700;
 
 color:#D4AF37;
 
-margin:12px 0 8px;
+margin:10px 0 6px;
 
-font-family:'Cinzel',serif;
+letter-spacing:1px;
+
+text-shadow:0 0 12px rgba(212,175,55,.20);
 
 }
-
 .delivery-time{
 
 font-size:13px;
 
-color:#9f9f9f;
+color:#BDBDBD;
 
-margin-bottom:18px;
+margin-bottom:22px;
 
-letter-spacing:.4px;
+letter-spacing:.5px;
 
 }
 /*==============================
