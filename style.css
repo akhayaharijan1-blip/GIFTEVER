@@ -1140,9 +1140,35 @@ WHY GIFTEVER
 .features{
 
 padding:90px 20px;
+position:relative;
+
+overflow:hidden;
+}
+.features::before{
+
+content:"";
+
+position:absolute;
+
+width:380px;
+
+height:380px;
+
+background:#D4AF37;
+
+border-radius:50%;
+
+filter:blur(180px);
+
+opacity:.08;
+
+top:-120px;
+
+right:-120px;
+
+z-index:-1;
 
 }
-
 .features-grid{
 
 display:grid;
@@ -1806,3 +1832,32 @@ left:170%;
 }
 
     }
+.features::after{
+
+content:"";
+
+position:absolute;
+
+left:50%;
+
+bottom:0;
+
+transform:translateX(-50%);
+
+width:70%;
+
+height:1px;
+
+background:linear-gradient(
+
+to right,
+
+transparent,
+
+rgba(212,175,55,.5),
+
+transparent
+
+);
+
+}
