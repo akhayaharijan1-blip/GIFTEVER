@@ -729,7 +729,7 @@ PRODUCT CARD
 .product-card{
 
     position:relative;
-
+isolation:isolate;
     background:rgba(255,255,255,.05);
 
     border:1px solid rgba(255,255,255,.08);
@@ -747,6 +747,46 @@ box-shadow .45s;
 
     overflow:hidden;
 cursor:pointer;
+}
+.product-card::before{
+
+content:"";
+
+position:absolute;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+height:100%;
+
+border-radius:22px;
+
+padding:1px;
+
+background:linear-gradient(
+135deg,
+rgba(212,175,55,.35),
+transparent,
+rgba(212,175,55,.18)
+);
+
+-webkit-mask:
+linear-gradient(#fff 0 0) content-box,
+linear-gradient(#fff 0 0);
+
+-webkit-mask-composite:xor;
+
+mask-composite:exclude;
+
+pointer-events:none;
+
+opacity:0;
+
+transition:.35s;
+
 }
 .product-card::before{
 
