@@ -747,6 +747,7 @@ box-shadow .45s;
 
     overflow:hidden;
 cursor:pointer;
+    min-height:560px;
 }
 .product-card::before{
 
@@ -866,9 +867,9 @@ margin:15px 0 18px;
 
 .phone-preview{
 
-width:170px;
+width:150px;
 
-height:350px;
+height:300px;
 
 margin:18px auto;
 
@@ -878,7 +879,7 @@ justify-content:center;
 
 align-items:center;
 
-font-size:70px;
+font-size:62px;
 
 background:linear-gradient(145deg,#181818,#0b0b0b);
 
@@ -960,10 +961,10 @@ align-items:center;
 
     text-align:center;
 
-    padding:12px
+    padding:12px 10px;
 font-size:14px;
     letter-spacing:.4px;
-    border-radius:50px;
+    border-radius:10px;
 
     font-weight:600;
 
