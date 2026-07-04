@@ -167,20 +167,33 @@ display:none;
     min-height:100vh;
 
     display:flex;
-
+overflow:hidden;
+    position:relative;
     justify-content:center;
 
     align-items:center;
 flex-direction:column;
     text-align:center;
 
-    padding:120px 20px 60px;
+    padding:120px 8%; 20px 60px;
+background:
+radial-gradient(circle at top right,
+rgba(109,40,217,.18) 0%,
+transparent 30%),
 
+radial-gradient(circle at bottom left,
+rgba(15,23,42,.45) 0%,
+transparent 40%),
+
+linear-gradient(135deg,
+#0B0B0B 0%,
+#111111 45%,
+#0F172A 100%);
 }
 
 .hero-content{
 
-    max-width:900px;
+    max-width:560px;
 position:relative;
 z-index:2;
     margin-bottom:50px;
