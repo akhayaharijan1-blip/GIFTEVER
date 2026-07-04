@@ -180,29 +180,23 @@ const productName=selectedPrice===199
 ?"Classic Surprise"
 :"Royal Surprise";
 
-const message=
+const message =
 
-`✨ Hello GIFTEVER!
+`Hello GIFTEVER! 👋
 
-I want to place an order.
-
-━━━━━━━━━━━━━━
+I want to order ${productName}.
 
 🆔 Order ID: ${orderId}
 
-🎁 Product: ${productName}
-
-💰 Original Price: ₹${selectedPrice}
+💵 Final Price: ₹${finalPrice}
 
 🏷️ Promo Code: ${promoCode}
 
-💵 Final Price: ₹${finalPrice}
+📅 ${orderDate}
 
-📅 Date: ${orderDate}
+⏰ ${orderTime}
 
-⏰ Time: ${orderTime}
-
-━━━━━━━━━━━━━━
+I'm ready to place my order.
 
 Please guide me with the payment process. 😊`; const orderId="GF"+Date.now().toString().slice(-6);
 
