@@ -1004,12 +1004,13 @@ transition:.35s;
 
 }
 .phone-preview{
+.phone-preview{
 
-width:150px;
+width:165px;
 
-height:300px;
+height:320px;
 
-margin:18px auto;
+margin:20px auto;
 
 display:flex;
 
@@ -1017,23 +1018,27 @@ justify-content:center;
 
 align-items:center;
 
-font-size:62px;
+font-size:68px;
 
-background:linear-gradient(145deg,#181818,#0b0b0b);
+background:linear-gradient(
+145deg,
+#1A1A1A,
+#090909);
 
-border:2px solid rgba(212,175,55,.18);
+border:2px solid rgba(212,175,55,.22);
 
-border-radius:38px;
+border-radius:42px;
 
 box-shadow:
-0 0 30px rgba(212,175,55,.12),
+0 0 35px rgba(212,175,55,.12),
+0 18px 45px rgba(0,0,0,.35),
 inset 0 0 20px rgba(255,255,255,.03);
-
-transition:.4s;
 
 overflow:hidden;
 
 position:relative;
+
+transition:.45s;
 
 }
 .phone-preview::before{
@@ -1042,21 +1047,32 @@ content:"";
 
 position:absolute;
 
-top:10px;
+top:12px;
 
 left:50%;
 
 transform:translateX(-50%);
 
-width:70px;
+width:72px;
 
-height:6px;
+height:7px;
 
-background:#2a2a2a;
+background:#242424;
 
-border-radius:20px;
+border-radius:30px;
+
+border:1px solid rgba(255,255,255,.05);
 
 }
+    .phone-preview:hover{
+
+transform:translateY(-8px) scale(1.04);
+
+box-shadow:
+0 0 45px rgba(212,175,55,.22),
+0 25px 55px rgba(0,0,0,.45);
+
+    }
 .product-card h3{
 
 font-family:'Cinzel',serif;
