@@ -1805,28 +1805,53 @@ PRICE
 
 font-family:'Cinzel',serif;
 
-font-size:32px;
+font-size:36px;
 
 font-weight:700;
 
-color:#D4AF37;
+background:linear-gradient(
+135deg,
+#D4AF37,
+#FFE08A,
+#D4AF37);
 
-margin:10px 0 6px;
+-webkit-background-clip:text;
+
+-webkit-text-fill-color:transparent;
+
+margin:12px 0 8px;
 
 letter-spacing:1px;
 
-text-shadow:0 0 12px rgba(212,175,55,.20);
+text-shadow:0 0 18px rgba(212,175,55,.28);
 
 }
 .delivery-time{
 
 font-size:13px;
 
-color:#BDBDBD;
+font-weight:500;
+
+color:#CFCFCF;
 
 margin-bottom:22px;
 
-letter-spacing:.5px;
+letter-spacing:.6px;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+gap:6px;
+
+}
+.product-card:hover .product-price{
+
+filter:drop-shadow(0 0 10px rgba(212,175,55,.45));
+
+transition:.35s;
 
 }
 /*==============================
