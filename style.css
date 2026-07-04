@@ -457,23 +457,24 @@ Floating Luxury Lights
 
 position:absolute;
 
+top:-120px;
+
+right:-80px;
+
 width:420px;
 
 height:420px;
 
-background:#D4AF37;
+background:radial-gradient(circle,
+rgba(212,175,55,.28) 0%,
+rgba(232,200,120,.10) 35%,
+transparent 75%);
+
+filter:blur(35px);
 
 border-radius:50%;
 
-filter:blur(180px);
-
-opacity:.13;
-
-left:-150px;
-
-top:120px;
-
-animation:move1 10s ease-in-out infinite;
+animation:floatGlow 8s ease-in-out infinite;
 
 }
 
@@ -481,23 +482,23 @@ animation:move1 10s ease-in-out infinite;
 
 position:absolute;
 
+bottom:-120px;
+
+left:-100px;
+
 width:320px;
 
 height:320px;
 
-background:#D4AF37;
+background:radial-gradient(circle,
+rgba(109,40,217,.20) 0%,
+transparent 70%);
+
+filter:blur(40px);
 
 border-radius:50%;
 
-filter:blur(160px);
-
-opacity:.10;
-
-right:-120px;
-
-bottom:120px;
-
-animation:move2 12s ease-in-out infinite;
+animation:floatGlow2 10s ease-in-out infinite;
 
 }
 
@@ -2384,3 +2385,34 @@ border-color:#D4AF37;
 box-shadow:0 12px 30px rgba(212,175,55,.20);
 
 }
+@keyframes floatGlow{
+
+0%,100%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(-25px);
+
+}
+
+}
+
+@keyframes floatGlow2{
+
+0%,100%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(20px);
+
+}
+
+                     }
