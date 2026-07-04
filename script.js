@@ -184,6 +184,42 @@ const message=
 
 `✨ Hello GIFTEVER!
 
+I want to place an order.
+
+━━━━━━━━━━━━━━
+
+🆔 Order ID: ${orderId}
+
+🎁 Product: ${productName}
+
+💰 Original Price: ₹${selectedPrice}
+
+🏷️ Promo Code: ${promoCode}
+
+💵 Final Price: ₹${finalPrice}
+
+📅 Date: ${orderDate}
+
+⏰ Time: ${orderTime}
+
+━━━━━━━━━━━━━━
+
+Please guide me with the payment process. 😊`; const orderId="GF"+Date.now().toString().slice(-6);
+
+const today=new Date();
+
+const orderDate=today.toLocaleDateString();
+
+const orderTime=today.toLocaleTimeString([],{
+
+hour:"2-digit",
+
+minute:"2-digit"
+
+});
+
+`✨ Hello GIFTEVER!
+
 I want to order:
 
 🎁 Product: ${productName}
