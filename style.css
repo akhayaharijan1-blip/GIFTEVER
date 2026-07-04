@@ -2316,3 +2316,24 @@ font-weight:600;
 color:#D4AF37;
 
 }
+.close-popup{
+
+float:right;
+
+font-size:28px;
+
+color:#D4AF37;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.close-popup:hover{
+
+transform:scale(1.15);
+
+color:#FFD86B;
+
+}
