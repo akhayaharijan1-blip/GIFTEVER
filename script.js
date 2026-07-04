@@ -120,3 +120,8 @@ promoPopup.style.display="none";
 }
 
 });
+document.querySelector(".close-popup").addEventListener("click",function(){
+
+promoPopup.style.display="none";
+
+});
