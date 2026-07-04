@@ -231,15 +231,21 @@ cursor:default;
 }
 .hero h1{
 
-    font-family:'Cinzel',serif;
+font-family:'Cinzel',serif;
 
-    font-size:58px;
+font-size:58px;
 
-    line-height:1.15;
+font-weight:700;
 
-    margin-bottom:25px;
+line-height:1.08;
 
-    letter-spacing:1px;
+letter-spacing:1px;
+
+margin-bottom:22px;
+
+color:#F5F5F2;
+
+text-shadow:0 0 18px rgba(255,255,255,.08);
 
 }
 .hero h1{
@@ -271,20 +277,32 @@ transform:translateY(0);
 
 display:block;
 
-color:#D4AF37;
+margin-top:10px;
+
+background:linear-gradient(
+90deg,
+#D4AF37,
+#E8C878,
+#F5F5F2);
+
+-webkit-background-clip:text;
+
+-webkit-text-fill-color:transparent;
+
+text-shadow:0 0 22px rgba(212,175,55,.35);
 
 }
 .hero p{
 
-    max-width:700px;
+font-size:18px;
 
-    margin:auto;
+line-height:1.8;
 
-    color:#d5d5d5;
-    font-weight:300;
-    font-size:19px;
+color:rgba(245,245,242,.82);
 
-    line-height:1.8;
+max-width:500px;
+
+margin-bottom:35px;
 
 }
 .hero-line{
