@@ -105,6 +105,14 @@ button.addEventListener("click",function(e){
 
 e.preventDefault();
 
+selectedPrice=Number(button.dataset.price);
+
+finalPrice=selectedPrice;
+
+promoInput.value="";
+
+promoResult.innerHTML="";
+
 promoPopup.style.display="flex";
 
 });
