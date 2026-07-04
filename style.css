@@ -743,7 +743,17 @@ COLLECTION
 
 .collection{
 
-    padding:100px 8%;
+position:relative;
+
+padding:120px 8%;
+
+background:linear-gradient(
+180deg,
+#0B0B0B 0%,
+#10131A 50%,
+#0B0B0B 100%);
+
+overflow:hidden;
 
 }
 
@@ -767,23 +777,31 @@ COLLECTION
 
 .section-title h2{
 
-    font-family:'Cinzel',serif;
-
     font-size:48px;
 
-    margin:18px 0;
+font-family:'Cinzel',serif;
+
+font-weight:700;
+
+line-height:1.2;
+
+color:#F5F5F2;
+
+margin-bottom:18px;
 
 }
 
 .section-title p{
 
-    color:#bdbdbd;
+    font-size:17px;
 
-    max-width:600px;
+line-height:1.8;
 
-    margin:auto;
+color:rgba(245,245,242,.75);
 
-    line-height:1.8;
+max-width:650px;
+
+margin:auto;
 
 }
 
@@ -791,10 +809,11 @@ COLLECTION
 
     display:grid;
 
-    grid-template-columns:repeat(auto-fit,minmax(290px,340px));
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
 
-    gap:35px;
+gap:35px;
 
+margin-top:70px;
 }
 /*==============================
 PRODUCT CARD
