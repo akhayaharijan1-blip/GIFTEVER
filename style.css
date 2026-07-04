@@ -821,26 +821,33 @@ PRODUCT CARD
 
 .product-card{
 
-    position:relative;
+position:relative;
+
 isolation:isolate;
-    background:rgba(255,255,255,.05);
 
-    border:1px solid rgba(255,255,255,.08);
+background:linear-gradient(
+180deg,
+rgba(255,255,255,.05),
+rgba(255,255,255,.02));
 
-    backdrop-filter:blur(18px);
+border:1px solid rgba(212,175,55,.15);
 
-    border-radius:22px;
+backdrop-filter:blur(18px);
 
-    padding:28px;
+border-radius:28px;
 
-    transition:
-transform .45s,
-border-color .45s,
-box-shadow .45s;
+padding:30px;
 
-    overflow:hidden;
+transition:.45s ease;
+
+overflow:hidden;
+
 cursor:pointer;
-    min-height:560px;
+
+min-height:560px;
+
+box-shadow:0 15px 40px rgba(0,0,0,.35);
+
 }
 .product-card::before{
 
@@ -2623,3 +2630,28 @@ transform:translateY(-6px);
 }
 
     }
+.product-card::before{
+
+content:"";
+
+position:absolute;
+
+top:0;
+
+left:-120%;
+
+width:60%;
+
+height:100%;
+
+background:linear-gradient(
+90deg,
+transparent,
+rgba(255,255,255,.12),
+transparent);
+
+transform:skewX(-25deg);
+
+transition:.8s;
+
+}
