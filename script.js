@@ -179,7 +179,19 @@ const promoCode=promoInput.value.trim().toUpperCase() || "No Promo";
 const productName=selectedPrice===199
 ?"Classic Surprise"
 :"Royal Surprise";
+const orderId="GF"+Date.now().toString().slice(-6);
 
+const today=new Date();
+
+const orderDate=today.toLocaleDateString();
+
+const orderTime=today.toLocaleTimeString([],{
+
+hour:"2-digit",
+
+minute:"2-digit"
+
+});
 const message =
 
 `Hello GIFTEVER! 👋
@@ -198,33 +210,7 @@ I want to order ${productName}.
 
 I'm ready to place my order.
 
-Please guide me with the payment process. 😊`; const orderId="GF"+Date.now().toString().slice(-6);
-
-const today=new Date();
-
-const orderDate=today.toLocaleDateString();
-
-const orderTime=today.toLocaleTimeString([],{
-
-hour:"2-digit",
-
-minute:"2-digit"
-
-});
-
-`✨ Hello GIFTEVER!
-
-I want to order:
-
-🎁 Product: ${productName}
-
-💰 Original Price: ₹${selectedPrice}
-
-🏷️ Promo Code: ${promoCode}
-
-💵 Final Price: ₹${finalPrice}
-
-Please guide me with the next steps. 😊`;
+Please guide me with the payment process. 😊`; 
 
 const phone="918926152451";
 
