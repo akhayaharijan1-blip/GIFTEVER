@@ -125,3 +125,40 @@ document.querySelector(".close-popup").addEventListener("click",function(){
 promoPopup.style.display="none";
 
 });
+const promoInput=document.getElementById("promoInput");
+
+const promoResult=document.getElementById("promoResult");
+
+const applyPromo=document.getElementById("applyPromo");
+
+let selectedPrice=199;
+
+let finalPrice=199;
+
+applyPromo.addEventListener("click",function(){
+
+const code=promoInput.value.trim().toUpperCase();
+
+if(code==="FIRST47"){
+
+finalPrice=Math.round(selectedPrice*0.53);
+
+promoResult.innerHTML=
+`🎉 Congratulations!<br>
+47% OFF Applied<br><br>
+<del>₹${selectedPrice}</del>
+&nbsp;
+<b>₹${finalPrice}</b>`;
+
+}
+
+else{
+
+finalPrice=selectedPrice;
+
+promoResult.innerHTML=
+"❌ Invalid Promo Code";
+
+}
+
+});
