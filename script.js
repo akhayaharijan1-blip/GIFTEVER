@@ -170,3 +170,40 @@ promoResult.innerHTML=
 }
 
 });
+const continueWhatsapp=document.getElementById("continueWhatsapp");
+
+continueWhatsapp.addEventListener("click",function(){
+
+const promoCode=promoInput.value.trim().toUpperCase() || "No Promo";
+
+const productName=selectedPrice===199
+?"Classic Surprise"
+:"Royal Surprise";
+
+const message=
+
+`✨ Hello GIFTEVER!
+
+I want to order:
+
+🎁 Product: ${productName}
+
+💰 Original Price: ₹${selectedPrice}
+
+🏷️ Promo Code: ${promoCode}
+
+💵 Final Price: ₹${finalPrice}
+
+Please guide me with the next steps. 😊`;
+
+const phone="918926152451";
+
+window.open(
+
+`https://wa.me/${phone}?text=${encodeURIComponent(message)}`,
+
+"_blank"
+
+);
+
+});
