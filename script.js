@@ -95,3 +95,28 @@ e.preventDefault();
 });
 
     }
+const promoPopup = document.getElementById("promoPopup");
+
+const orderButtons = document.querySelectorAll(".order-btn");
+
+orderButtons.forEach(button=>{
+
+button.addEventListener("click",function(e){
+
+e.preventDefault();
+
+promoPopup.style.display="flex";
+
+});
+
+});
+
+promoPopup.addEventListener("click",function(e){
+
+if(e.target===promoPopup){
+
+promoPopup.style.display="none";
+
+}
+
+});
