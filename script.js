@@ -128,11 +128,17 @@ promoPopup.style.display="none";
 }
 
 });
-document.querySelector(".close-popup").addEventListener("click",function(){
+const closePopup = document.querySelector(".close-popup");
 
-promoPopup.style.display="none";
+if(closePopup){
 
-});
+    closePopup.addEventListener("click",function(){
+
+        promoPopup.style.display="none";
+
+    });
+
+}
 const promoInput=document.getElementById("promoInput");
 
 const promoResult=document.getElementById("promoResult");
