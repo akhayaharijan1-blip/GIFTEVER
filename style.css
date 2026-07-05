@@ -1504,7 +1504,7 @@ display:grid;
 
 grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
 
-gap:25px;
+gap:32px;
 
 margin-top:50px;
 
@@ -1659,11 +1659,20 @@ font-family:'Cinzel',serif;
 
 .feature-card p{
 
-color:#c7c7c7;
-
 font-size:15px;
 
-line-height:1.7;
+line-height:1.9;
+
+color:rgba(245,245,242,.78);
+
+font-weight:300;
+
+transition:.35s;
+
+}
+.feature-card:hover p{
+
+color:#FFFFFF;
 
 }
 .fade-up{
@@ -2341,38 +2350,46 @@ TESTIMONIALS
 
 .testimonials{
 
-padding:100px 20px;
+padding:120px 8%;
 
 position:relative;
 
 overflow:hidden;
-position:relative;
 
-overflow:hidden;
+background:linear-gradient(
+180deg,
+#0B0B0B 0%,
+#0F172A 50%,
+#0B0B0B 100%);
+
 }
 .testimonials::before{
 
 content:"";
 
 position:absolute;
+top:-180px;
+left:-180px;    
+width:500px;
 
-width:420px;
+height:500px;
 
-height:420px;
-
-background:#D4AF37;
+background:radial-gradient(
+circle,
+rgba(212,175,55,.10),
+transparent 70%);#D4AF37;
 
 border-radius:50%;
 
-filter:blur(180px);
+filter:blur(120px);
 
 opacity:.08;
 
 left:-150px;
 
 bottom:-120px;
-
-z-index:-1;
+pointer-events:none;
+z-index:-0;
 
 }
 .testimonials::after{
@@ -2402,11 +2419,15 @@ z-index:-1;
 
 display:grid;
 
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
 
-gap:28px;
+gap:32px;
 
-margin-top:55px;
+margin-top:70px;
+
+position:relative;
+
+z-index:2;
 
 }
 
