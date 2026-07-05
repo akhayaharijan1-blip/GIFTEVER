@@ -1921,15 +1921,24 @@ LAUNCH OFFER
 
 .offer-tag{
 
-display:inline-block;
+display:inline-flex;
 
-margin:14px 0;
+align-items:center;
 
-padding:8px 16px;
+justify-content:center;
 
-background:rgba(212,175,55,.12);
+gap:6px;
 
-border:1px solid rgba(212,175,55,.28);
+margin:16px 0;
+
+padding:10px 18px;
+
+background:linear-gradient(
+135deg,
+rgba(212,175,55,.18),
+rgba(212,175,55,.08));
+
+border:1px solid rgba(212,175,55,.30);
 
 border-radius:50px;
 
@@ -1937,11 +1946,27 @@ color:#FFD86B;
 
 font-size:12px;
 
-font-weight:600;
+font-weight:700;
 
-letter-spacing:.5px;
+letter-spacing:.6px;
+
+box-shadow:0 8px 25px rgba(212,175,55,.15);
+
+backdrop-filter:blur(10px);
+
+transition:.35s;
 
 }
+    .offer-tag:hover{
+
+transform:scale(1.05);
+
+box-shadow:
+0 0 30px rgba(212,175,55,.30);
+
+border-color:#D4AF37;
+
+    }
 /*==============================
 OFFER STRIP
 ==============================*/
