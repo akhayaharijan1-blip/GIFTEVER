@@ -175,7 +175,7 @@ overflow:hidden;
 flex-direction:column;
     text-align:center;
 
-    padding:120px 8%; 20px 60px;
+    padding:120px 8% 20px;
 background:
 radial-gradient(circle at top right,
 rgba(109,40,217,.18) 0%,
@@ -1270,144 +1270,64 @@ MOBILE RESPONSIVE
 @media (max-width:768px){
 
 .hero{
-
-padding:90px 20px 60px;
-
-text-align:center;
-.offer-tag{
-
-font-size:11px;
-
-padding:7px 14px;
-.offer-strip{
-
-padding:14px 15px;
-.feature-icon{
-
-width:68px;
-
-height:68px;
-
-font-size:28px;
-
-margin-bottom:18px;
-.testimonials{
-
-padding:70px 20px;
-
-}
-
-.testimonial-grid{
-
-grid-template-columns:1fr;
-
-gap:20px;
-
-}
-
-.testimonial-card{
-
-padding:24px;
-
-}
-}
-}
-
-.offer-strip p{
-
-font-size:13px;
-
-line-height:1.6;
-
-}
-}
+    padding:90px 20px 60px;
+    text-align:center;
 }
 
 .hero h1{
-
-font-size:42px;
-
-line-height:1.1;
-
+    font-size:42px;
+    line-height:1.1;
 }
 
 .hero p{
-
-font-size:16px;
-
-line-height:1.8;
-
-max-width:100%;
-
+    font-size:16px;
+    line-height:1.8;
+    max-width:100%;
 }
 
 .hero-buttons{
-
-display:flex;
-
-flex-direction:column;
-
-gap:15px;
-
+    display:flex;
+    flex-direction:column;
+    gap:15px;
 }
 
 .hero-buttons a{
-
-width:100%;
-
-text-align:center;
-
+    width:100%;
+    text-align:center;
 }
+
 .btn-primary,
 .btn-secondary{
-
-padding:18px;
-
-font-size:16px;
-
+    padding:18px;
+    font-size:16px;
 }
+
 .collection{
-
-padding:70px 20px;
-
+    padding:70px 20px;
 }
 
 .collection-grid{
-
-display:flex;
-
-flex-direction:column;
-
-gap:25px;
-
+    display:flex;
+    flex-direction:column;
+    gap:25px;
 }
 
 .product-card{
-
-width:100%;
-
-border-radius:22px;
-
-padding:24px;
-
+    width:100%;
+    border-radius:22px;
+    padding:24px;
 }
 
 .phone-preview{
-
-height:260px;
-
+    height:260px;
 }
 
 .section-title h2{
-
-font-size:34px;
-
+    font-size:34px;
 }
 
 .section-title p{
-
-font-size:15px;
-
+    font-size:15px;
 }
 
 }
