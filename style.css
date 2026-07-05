@@ -847,7 +847,7 @@ cursor:pointer;
 min-height:560px;
 
 box-shadow:0 15px 40px rgba(0,0,0,.35);
-
+will-change:transform;
 }
 .product-card::before{
 
@@ -1099,14 +1099,24 @@ transition:.35s;
 }
 .product-card p{
 
-    color:#c8c8c8;
+color:#CFCFCF;
+
 font-size:15px;
-    line-height:1.8;
 
-    margin-bottom:20px;
+line-height:1.9;
+
 font-weight:300;
-}
 
+margin-bottom:22px;
+
+transition:.35s;
+
+}
+.product-card:hover p{
+
+color:#F5F5F2;
+
+}
 .product-buttons{
 
     display:flex;
