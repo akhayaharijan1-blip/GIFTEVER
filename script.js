@@ -42,27 +42,33 @@ fadeElements.forEach((el)=>observer.observe(el));
 const classicDemo = document.getElementById("classic-demo");
 const royalDemo = document.getElementById("royal-demo");
 
-if(classicDemo){
+if (classicDemo) {
 
-classicDemo.addEventListener("click",(e)=>{
+    classicDemo.addEventListener("click", (e) => {
 
-e.preventDefault();
+        e.preventDefault();
 
-// Classic Demo Link Here
+        window.open(
+            "https://akhayaharijan1-blip.github.io/Stuti-Birthday-Premium-Edition-/",
+            "_blank"
+        );
 
-});
+    });
 
 }
 
-if(royalDemo){
+if (royalDemo) {
 
-royalDemo.addEventListener("click",(e)=>{
+    royalDemo.addEventListener("click", (e) => {
 
-e.preventDefault();
+        e.preventDefault();
 
-// Royal Demo Link Here
+        window.open(
+            "https://akhayaharijan1-blip.github.io/Aaradhya-Edition-/",
+            "_blank"
+        );
 
-});
+    });
 
 }
 // ==========================
