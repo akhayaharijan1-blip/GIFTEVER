@@ -464,7 +464,7 @@ transform:translateY(-4px);
     transform:translate(-50%,-50%);
 
     z-index:-1;
-
+pointer-events:none;
 }
 @keyframes float{
 
@@ -584,7 +584,7 @@ Hero Background Effects
     inset:0;
 
     z-index:-1;
-
+pointer-events:none;
 }
 
 .gold-circle{
@@ -1740,7 +1740,7 @@ circle,
 rgba(212,175,55,.12),
 
 transparent 70%
-
+pointer-events:none;
 );
 
 animation:screenGlow 6s linear infinite;
