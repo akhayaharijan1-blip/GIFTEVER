@@ -3656,25 +3656,3 @@ text-shadow:0 0 15px rgba(212,175,55,.55);
 will-change:transform;
 
 }
-/* ==========================
-   Back to GIFTEVER Button
-========================== */
-
-.back-home-btn{
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    padding: 12px 22px;
-    background: #D4AF37;
-    color: #000;
-    text-decoration: none;
-    font-weight: 700;
-    border-radius: 30px;
-    transition: 0.3s ease;
-    z-index: 9999;
-    box-shadow: 0 8px 25px rgba(0,0,0,.25);
-}
-
-.back-home-btn:hover{
-    transform: translateY(-2px);
-}
