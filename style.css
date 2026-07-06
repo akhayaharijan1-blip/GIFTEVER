@@ -3080,7 +3080,7 @@ filter:blur(40px);
 z-index:-1;
 
 animation:heroAura 8s ease-in-out infinite;
-
+pointer-events:none;
 }
 
 @keyframes heroAura{
@@ -3129,7 +3129,7 @@ transparent);
 transform:rotate(25deg);
 
 animation:screenShine 5s linear infinite;
-
+pointer-events:none;
 }
 
 @keyframes screenShine{
