@@ -43,33 +43,17 @@ const classicDemo = document.getElementById("classic-demo");
 const royalDemo = document.getElementById("royal-demo");
 
 if (classicDemo) {
-
     classicDemo.addEventListener("click", (e) => {
-
         e.preventDefault();
-
-        window.open(
-            "https://akhayaharijan1-blip.github.io/Stuti-Birthday-Premium-Edition-/",
-            "_blank"
-        );
-
+        window.open("https://classic.giftever.store", "_blank");
     });
-
 }
 
 if (royalDemo) {
-
     royalDemo.addEventListener("click", (e) => {
-
         e.preventDefault();
-
-        window.open(
-            "https://akhayaharijan1-blip.github.io/Aaradhya-Edition-/",
-            "_blank"
-        );
-
+        window.open("https://royal.giftever.store", "_blank");
     });
-
 }
 // ==========================
 // Order Buttons (Future Ready)
