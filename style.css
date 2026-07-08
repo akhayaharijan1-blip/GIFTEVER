@@ -3716,3 +3716,62 @@ will-change:transform;
     object-fit:cover;
     display:block;
 }
+.legal-page{
+
+max-width:850px;
+
+margin:80px auto;
+
+padding:30px;
+
+color:#fff;
+
+line-height:1.9;
+
+}
+
+.legal-page h1{
+
+color:#D4AF37;
+
+margin-bottom:20px;
+
+text-align:center;
+
+}
+
+.legal-page h2{
+
+color:#D4AF37;
+
+margin-top:35px;
+
+margin-bottom:10px;
+
+}
+
+.legal-page p{
+
+color:#d5d5d5;
+
+}
+
+.legal-page a{
+
+display:inline-block;
+
+margin-top:40px;
+
+color:#D4AF37;
+
+text-decoration:none;
+
+font-weight:600;
+
+}
+
+.legal-page a:hover{
+
+text-decoration:underline;
+
+}
